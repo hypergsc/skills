@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "backlink-gap",
+    "sha256": "f60ba1092d0e48c062c8a7c6dd6937502e377021836261c07cbd0e33d293198e",
+    "git_blob": "62e85e890f879768441993a5140079268904732a"
+  },
+  {
+    "slug": "change-evaluation",
+    "sha256": "0cfbbe1347355eb8fc888d44cb137d4377c160aaf37952231b5b2796c6e38fd7",
+    "git_blob": "88ca526b2791e28150d35730a0b54813ad5c4357"
+  },
+  {
+    "slug": "competitor-research",
+    "sha256": "f338da366ec8892043cb8fbf0423d2e14ae8d5dd03c150d2d31ae3559943fabd",
+    "git_blob": "0b2431cf6e7e436cf3c30167e1598e90aaa99d97"
+  },
+  {
+    "slug": "content-planning",
+    "sha256": "7f59b49b1105ac6cc7a150827d20dfe58ed41a08024dc731200b7b4b2d6dbad0",
+    "git_blob": "2a360464d86ba1b18b51bb46319c2e0f435b7c0d"
+  },
+  {
+    "slug": "ctr-opportunities",
+    "sha256": "5e591a00731510046e0ab107b6f7cbabecc4372097a1a60ecea807edd59328dc",
+    "git_blob": "61b5b94df2fbf952d646737a74e80b92a1ea907f"
+  },
+  {
+    "slug": "indexing-check",
+    "sha256": "7e06941e28e3230647da3932029f4612906b350d1aea4592279448b8f6670807",
+    "git_blob": "ad811b98c08345424ef8269653df5532699f0cb0"
+  },
+  {
+    "slug": "search-review",
+    "sha256": "179b5697dfad59e36209fb47dfd2e190b610ffadf415016e265fbeffd92ab1fa",
+    "git_blob": "c39b12d99a59200d7b856cee5165157004ef5151"
+  }
+]

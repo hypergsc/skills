@@ -1,0 +1,11 @@
+interface:
+  display_name: "Find search snippet opportunities"
+  short_description: "Review search snippet experiment candidates"
+  default_prompt: "Use $ctr-opportunities with HyperGSC. Find pages that get impressions but may be underperforming on clicks."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "hypergsc"
+      description: "HyperGSC OAuth connection; installation is separate"
+      transport: "streamable_http"
+      url: "https://hypergsc.com/mcp/openai"

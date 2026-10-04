@@ -1,0 +1,16 @@
+name: Workflow failure
+description: Report a reproducible workflow or installation failure using synthetic inputs.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Skill version and client version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Question, synthetic inputs, expected and actual result
+      description: Do not include secrets, private properties or customer reports.
+    validations:
+      required: true

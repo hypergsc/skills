@@ -1,0 +1,11 @@
+interface:
+  display_name: "Weekly SEO review"
+  short_description: "Compare completed weeks and choose next actions"
+  default_prompt: "Use $search-review with HyperGSC. Review my latest complete week of Search Console data and give me three next actions."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "hypergsc"
+      description: "HyperGSC OAuth connection; installation is separate"
+      transport: "streamable_http"
+      url: "https://hypergsc.com/mcp/openai"

@@ -1,0 +1,11 @@
+interface:
+  display_name: "Indexing check"
+  short_description: "Review Search Console evidence and next actions"
+  default_prompt: "Use $indexing-check with HyperGSC. Check the stored indexing observations for these URLs."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "hypergsc"
+      description: "HyperGSC OAuth connection; installation is separate"
+      transport: "streamable_http"
+      url: "https://hypergsc.com/mcp/openai"

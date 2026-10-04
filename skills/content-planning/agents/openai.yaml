@@ -1,0 +1,11 @@
+interface:
+  display_name: "Find pages worth improving"
+  short_description: "Prioritize existing pages using Search Console"
+  default_prompt: "Use $content-planning with HyperGSC. Which five existing pages should I improve next, and why?"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "hypergsc"
+      description: "HyperGSC OAuth connection; installation is separate"
+      transport: "streamable_http"
+      url: "https://hypergsc.com/mcp/openai"

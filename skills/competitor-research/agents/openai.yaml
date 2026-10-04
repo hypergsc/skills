@@ -1,0 +1,11 @@
+interface:
+  display_name: "Competitor research"
+  short_description: "Review Search Console evidence and next actions"
+  default_prompt: "Use $competitor-research with HyperGSC. Research this competitor in my requested market."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "hypergsc"
+      description: "HyperGSC OAuth connection; installation is separate"
+      transport: "streamable_http"
+      url: "https://hypergsc.com/mcp/openai"
