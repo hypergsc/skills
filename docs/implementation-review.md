@@ -16,7 +16,7 @@ These findings are encoded in workflows and maps without changing backend contra
 | SK-01 | Pinned commits, matching seven blobs, existing exporter | None for inventory |
 | SK-02 | Public hypergsc/skills repository, scoped MIT, existing slugs | Native client validation remains pending |
 | SK-03 | Shared authoring, standalone copies, drift checks | None for packaging |
-| SK-04 | Complete deterministic exports, hashes, rollback | Public catalog commit, distribution PRs |
+| SK-04 | Complete deterministic exports, hashes, rollback and public catalog commit | Distribution PRs |
 | SK-05/06/07 | Three bounded workflows, scoped reads and samples | Real installed-agent behavior |
 | SK-08 | Static isolation, negative package tests, fixtures and transcript harness | Repeated native client evaluations |
 | SK-09 | Installation docs, honest compatibility matrix | Clean installs and real queries in both clients |

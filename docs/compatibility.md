@@ -32,7 +32,13 @@ Skills CLI 1.7.0 discovered all seven local workflows. ctr-opportunities was
 installed with --copy into separate temporary project directories for Claude Code
 and Codex; each installed payload was compared byte-for-byte with its source.
 This tests CLI selection and file installation, not native detection, OAuth or
-agent behavior. The published GitHub commands have not been exercised.
+agent behavior.
+
+## Public repository discovery — 2026-10-04
+
+`npx skills@1.7.0 add hypergsc/skills --list` successfully cloned the public
+repository and discovered all seven workflows. This checks remote discovery;
+clean installation, native detection, OAuth and analytic behavior remain pending.
 
 The bundled legacy skill quick-validator rejects the specification-supported
 compatibility field. All seven frontmatter and OpenAI metadata files were parsed
