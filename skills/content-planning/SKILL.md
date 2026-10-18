@@ -1,6 +1,6 @@
 ---
 name: content-planning
-description: Plan SEO content improvements, review keyword overlap, or save a keyword shortlist and site context using HyperGSC when the user requests content planning or ongoing keyword research.
+description: Plan SEO content improvements, review keyword overlap, or save a keyword shortlist using HyperGSC when the user requests content planning or ongoing keyword research.
 license: MIT
 compatibility: Requires an existing HyperGSC MCP connection and an enabled Search Console property for live data.
 ---
@@ -41,15 +41,14 @@ saves, website edits or promised rankings.
 
 ## Explicit research and saving
 
-If asked to recover prior goals, read `get_project_context` and
-`list_saved_keywords`, following pagination only as needed. For requested keyword
+Ask the user for current business goals and constraints in the conversation.
+Use `list_saved_keywords` to recover requested targets, following pagination only as needed. For requested keyword
 expansion, `keyword_research` and `competitor_keyword_gap` are optional provider
 branches; check availability and shared quota first. Keep estimates distinct.
 Draft a brief only when requested, using real content or clearly marked hypotheses.
 
 For requested saving, use `save_keywords` in batches of at most 50 (1,000 per
 property); matching keyword/country/language records replace existing fields, so
-retain requested data. Read latest context before `update_project_context` and
-pass its expected version; omitted fields are preserved. On conflict, reread and
-preserve newer work. Missing write scope requires client reconnection with gsc:read
+retain requested data. Keep generic business context and decisions in the conversation.
+Missing write scope requires client reconnection with gsc:read
 and projects:write, not secrets in chat. Deletion/clearing requires user intent.

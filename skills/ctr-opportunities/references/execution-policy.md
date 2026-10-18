@@ -15,7 +15,8 @@ request passwords or tokens in chat, edit unrelated MCP settings, buy access, op
 checkout or promote upgrades. On exhausted quota, stop or return existing partial
 evidence. Do not retry ambiguous billable provider requests automatically.
 
-Default analysis reads data. Saving reports/context/keywords/change records is a
+Default analysis reads data; diagnostic tools can also persist their reports in HyperGSC.
+Saving keyword/change records is a
 separate branch requiring the user's intent and the current tool's write permission
 (normally projects:write). Read data, save research and modify a website are distinct
 actions. Tool annotations are hints; verify semantics before calling a tool described

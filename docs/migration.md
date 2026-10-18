@@ -21,7 +21,7 @@ After publishing, record its exact commit in plugin payload provenance using
 the application commit must not be mislabeled as the public catalog commit.
 
 Platform differences are manifests, marketplace and HTTP transport configuration.
-Skill payloads are byte-identical. Claude and OpenAI retain /mcp/openai. Each plugin
+Skill payloads are byte-identical. Claude and OpenAI use /mcp. Each plugin
 carries all files, license copies and skills-source.json with per-file SHA-256 hashes.
 No submodules, runtime downloads or branch-following updates.
 
