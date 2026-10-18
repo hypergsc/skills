@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 — unreleased
+
+- Use the shared /mcp URL for all clients.
+- Remove generic project-context tools from the reviewed contract and workflows.
+- Keep keyword saving, SEO change history and diagnostic reports.
+- Preserve pending live-client compatibility status.
+
 ## 0.1.0 — unreleased
 
 - Import the seven matching public 0.2.1 workflows with pinned provenance.

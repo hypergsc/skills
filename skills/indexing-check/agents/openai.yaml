@@ -8,4 +8,4 @@ dependencies:
       value: "hypergsc"
       description: "HyperGSC OAuth connection; installation is separate"
       transport: "streamable_http"
-      url: "https://hypergsc.com/mcp/openai"
+      url: "https://hypergsc.com/mcp"

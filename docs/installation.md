@@ -14,7 +14,7 @@ Installation does not connect Search Console. Sign in to HyperGSC, connect Googl
 and enable an authorized property. Google read permission and the MCP client's
 browser OAuth consent are separate. Reuse an existing client connection named
 hypergsc. Follow https://hypergsc.com/agent-setup/prompt.md for your client;
-the plugin contract uses https://hypergsc.com/mcp/openai, not /mcp.
+the plugin contract uses the shared https://hypergsc.com/mcp endpoint.
 The OpenAI metadata dependency is a hint, not universal OAuth autoconfiguration.
 No credentials belong in chat. Saving research additionally needs projects:write
 and the current account entitlement. Read-only access is sufficient for main reports.

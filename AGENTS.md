@@ -1,7 +1,7 @@
 # Catalog contributor instructions
 
 This repository is the authoring source for seven standalone SEO skills. Preserve
-slugs and the existing OAuth endpoint https://hypergsc.com/mcp/openai. Update shared
+slugs and the existing OAuth endpoint https://hypergsc.com/mcp. Update shared
 policies in shared-source, then run scripts/sync_shared.py. Never hand-edit copies
 inside skills/*/references/execution-policy.md or data-quality.md.
 

@@ -81,7 +81,7 @@ def validate_skill(skill, tools):
             require(tool in allowed, f"Unknown tool or parameter {tool}: {path}")
         for url in re.findall(r"https://hypergsc\.com/mcp[^\s\"<>`)]*", content):
             require(
-                url == "https://hypergsc.com/mcp/openai",
+                url == "https://hypergsc.com/mcp",
                 f"Unexpected MCP endpoint: {path}",
             )
         for link in re.findall(r"\[[^\]]*\]\(([^)]+)\)", content):
@@ -100,7 +100,7 @@ def validate_skill(skill, tools):
         f"Invalid OpenAI metadata: {skill}",
     )
     require(
-        'url: "https://hypergsc.com/mcp/openai"' in ui,
+        'url: "https://hypergsc.com/mcp"' in ui,
         f"Unexpected OpenAI dependency: {skill}",
     )
     return files

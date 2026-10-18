@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/hypergsc/skills",
   "publication": "unpublished-local-source",
   "skills": [
@@ -16,13 +16,11 @@
         "get_advanced_search_analytics",
         "get_capabilities",
         "get_content_opportunities",
-        "get_project_context",
         "get_search_by_page_query",
         "keyword_research",
         "list_properties",
         "list_saved_keywords",
-        "save_keywords",
-        "update_project_context"
+        "save_keywords"
       ],
       "sample": {
         "label": "Synthetic example \u2014 not your site data",
@@ -218,9 +216,7 @@
         "find_keyword_overlap",
         "get_capabilities",
         "get_content_opportunities",
-        "get_project_context",
-        "list_properties",
-        "update_project_context"
+        "list_properties"
       ],
       "sample": null
     },
